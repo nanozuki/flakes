@@ -26,14 +26,10 @@
         {
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
-              litecli
               nodejs
               pnpm
-              svelte-language-server
+              vtsls
             ];
-            shellHook = ''
-              export ESLINT_USE_FLAT_CONFIG="true"
-            '';
           };
         };
     };

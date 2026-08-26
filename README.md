@@ -22,4 +22,4 @@ All templates based flake-parts and devshells.
 
 - default
 - go
-- poetry (python)
+- node
